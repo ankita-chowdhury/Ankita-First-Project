@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    line-height: 2rem;
+    font-family: Poppins,Roboto,Helvetica Neue,sans-serif;
+    transition: 1s;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    
+    text-decoration: none;
+    font-size: 16px;
+}
+h3{
+    margin: 0;
+    font-size: 1rem;
+    /* font-weight: 550; */
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem
+}
+.logo{
+    height: 60px;
+}
+.outer-container{
+    width: 30%;
+    /* padding-bottom: 0.875rem; */
+}
+.container{
+    position: relative;
+    /* height: 80%; */
+    /* width: 60%; */
+    padding: 25px;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    border: 1px solid rgba(4, 32, 69, .14);
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba( 24, 36, 51 , 0.1);
+    
+}
+
+
+
+.email-add{
+    text-align: left;
+    /* text-align: right; */
+    /* border: 1px solid aqua; */
+    margin-bottom: 0.5rem;
+}
+
+.errorAlert{
+    border: 1px solid rgba(4, 32, 69, .14);
+    border-left: 0.25rem solid #d63939 ;
+    padding: 5px;
+    border-radius: 5px;
+    color: #d63939;
+    width: 93%;
+    text-align: left;
+    display: none;
+}
+.label-text{
+    font-weight: 550;
+    font-size: .875rem;
+    line-height: 2rem;
+    /* display: flex;
+    justify-content: start; */
+    /* border: 1px solid red; */
+}
+.input-class{
+    padding: 8px;
+    width: 93%;
+    border-radius: 5px;
+    border: 1px solid rgba(4, 32, 69, .14);
+}
+
+.pass{
+    margin-bottom: 10px;
+}
+.pass-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+a{
+    color: rgba(32, 107, 196, 1);
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.check-box{
+    text-align: left;
+    margin-bottom: 0.875rem;
+    color: inherit;
+    font-size: 0.875rem;
+    
+    
+}
+.checkbox-label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.875rem;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    color: #fcfdfe;
+    text-decoration: none;
+    background-color: #6f42c1;
+    border: none;
+    border-radius: 5px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba( 32, 107, 196 , .8);
+    text-decoration: none;
+    color: #fcfdfe;
+  
+}
+/* input[type="checkbox"]{
+    
+    background-color: #6f42c1 !important; 
+    color: #6f42c1 !important;
+    
+}
+input[type="checkbox"]:checked{
+    background-color: #6f42c1 !important; 
+    color: #6f42c1 !important;
+} */
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+    color: rgba(102, 115, 130, 1);
+}
+.sign-up a{
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+@media (max-width:280px){
+    .sign-up a{
+        margin-left: 5px;
+        
+    }
+    .outer-container{
+        width: 95%;
+    }
+
+}
+
+@media (min-width:281px) and (max-width:450px) {
+    .outer-container{
+        width: 90%;
+    }
+}
+@media (min-width:451px) and (max-width:767px){
+    .outer-container{
+        width: 75%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .outer-container{
+        width: 45%;
+    }
+}
+@media (min-width:1024px) and (max-width:1240px){
+    .outer-container{
+        width: 33%;
+    }
+}
+
+
+
+
+
+
+

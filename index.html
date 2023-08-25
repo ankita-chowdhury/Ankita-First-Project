@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="infinity.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="heading">
+            <img class="logo" src="infinity.png" alt="infinity">
+            <h2>InfinityFree</h2>
+        </div>
+       
+       <div class="container">
+        <h3>Login to your account</h3>
+        <!-- <form> -->
+            <div class="email-add">
+                
+                <p class="errorAlert" id="email-error"><span>&#x26a0;</span>The email field is required.</p>
+                <label for="email" class="label-text">Email Address</label>
+                <input type="email" name="Email" id="email" class="input-class" placeholder="you@example.com">
+            </div>
+            <div class="pass">
+                <p class="errorAlert" id="pass-error"><span>&#x26a0;</span>The password field is required.</p>
+                <div class="pass-div">
+                    
+                    
+                    <label for="pass" class="label-text">Password</label>
+                    <a href="http://">I forgot my password</a>
+                </div>
+                <input type="password" name="Pass" id="pass" class="input-class" placeholder="Password">
+            </div>
+            <p class="errorAlert" id="check-error"><span>&#x26a0;</span>Please select this checkbox.</p>
+            <div class="check-box">
+                
+                <label for="check" class="checkbox-label">
+                    <input type="checkbox" name="box" id="check" onclick="btnClick()">
+                    keep me logged in
+                </label>
+            </div>
+            <div class="btn">
+                <button onclick="btnClick()">Sign in</button>
+            </div>
+        <!-- </form> -->
+       </div>
+       <div class="sign-up">
+        <p>Don't have account yet?</p>
+        <a href="http://">Sign up</a>
+       </div>
+    </div>
+    
+</body>
+</html>
